@@ -15,8 +15,8 @@
     ReviewsSliderPrev = document.querySelector('.swiper-button-prev'),
     ReviewsSliderNext = document.querySelector('.swiper-button-next'),
     priceDurationToggler = document.querySelector('.price-duration-toggler'),
-    priceMonthlyList = [].slice.call(document.querySelectorAll('.price-monthly')),
-    priceYearlyList = [].slice.call(document.querySelectorAll('.price-yearly'));
+    priceMonthlyList = [].slice.call(document.querySelectorAll('.price-monthly'));
+    // priceYearlyList = [].slice.call(document.querySelectorAll('.price-yearly'));
 
   // Hero
   const mediaQueryXL = '1200';
@@ -116,31 +116,31 @@
 
   // Pricing Plans
   // -----------------------------------
-  document.addEventListener('DOMContentLoaded', function (event) {
-    function togglePrice() {
-      if (priceDurationToggler.checked) {
-        // If checked
-        priceYearlyList.map(function (yearEl) {
-          yearEl.classList.remove('d-none');
-        });
-        priceMonthlyList.map(function (monthEl) {
-          monthEl.classList.add('d-none');
-        });
-      } else {
-        // If not checked
-        priceYearlyList.map(function (yearEl) {
-          yearEl.classList.add('d-none');
-        });
-        priceMonthlyList.map(function (monthEl) {
-          monthEl.classList.remove('d-none');
-        });
-      }
-    }
-    // togglePrice Event Listener
-    togglePrice();
+  // document.addEventListener('DOMContentLoaded', function (event) {
+  //   function togglePrice() {
+  //     if (priceDurationToggler.checked) {
+  //       // If checked
+  //       priceYearlyList.map(function (yearEl) {
+  //         yearEl.classList.remove('d-none');
+  //       });
+  //       priceMonthlyList.map(function (monthEl) {
+  //         monthEl.classList.add('d-none');
+  //       });
+  //     } else {
+  //       // If not checked
+  //       priceYearlyList.map(function (yearEl) {
+  //         yearEl.classList.add('d-none');
+  //       });
+  //       priceMonthlyList.map(function (monthEl) {
+  //         monthEl.classList.remove('d-none');
+  //       });
+  //     }
+  //   }
+  //   // togglePrice Event Listener
+  //   togglePrice();
 
-    priceDurationToggler.onchange = function () {
-      togglePrice();
-    };
-  });
+  //   priceDurationToggler.onchange = function () {
+  //     togglePrice();
+  //   };
+  // });
 })();
