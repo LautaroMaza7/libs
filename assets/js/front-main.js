@@ -48,12 +48,12 @@ window.isDarkStyle = window.Helpers.isDarkStyle();
     menu.classList.remove('show');
   }
 
-  document.addEventListener('click', function (event) {
-    // Check if the clicked element is inside mobile menu
-    if (!menu.contains(event.target)) {
-      closeMenu();
-    }
-  });
+  // document.addEventListener('click', function (event) {
+  //   // Check if the clicked element is inside mobile menu
+  //   if (!menu.contains(event.target)) {
+  //     closeMenu();
+  //   }
+  // });
   navItemLink.forEach(link => {
     link.addEventListener('click', event => {
       if (!link.classList.contains('dropdown-toggle')) {
