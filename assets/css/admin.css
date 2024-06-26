@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css2?family=Geologica:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+@font-face {
+  font-family: "Biennale";
+  src: url("https://db.onlinewebfonts.com/t/ab115b4a1db57541d7c9c9e39db76c56.eot");
+  src: url("https://db.onlinewebfonts.com/t/ab115b4a1db57541d7c9c9e39db76c56.eot?#iefix")
+      format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/ab115b4a1db57541d7c9c9e39db76c56.woff2")
+      format("woff2"),
+    url("https://db.onlinewebfonts.com/t/ab115b4a1db57541d7c9c9e39db76c56.woff")
+      format("woff"),
+    url("https://db.onlinewebfonts.com/t/ab115b4a1db57541d7c9c9e39db76c56.ttf")
+      format("truetype"),
+    url("https://db.onlinewebfonts.com/t/ab115b4a1db57541d7c9c9e39db76c56.svg#Biennale")
+      format("svg");
+}
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+.wrapper {
+  height: 100%;
+}
+
+@keyframes rotate {
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+body {
+  /* display: grid;
+  place-items: center;
+  align-content: center;
+  margin: 0;
+  background-image: url("../img/bg5.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Biennale";
+  color: #3a334e;
+  animation: rotate 6s infinite alternate linear; */
+
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  place-items: center;
+  margin: 0;
+  padding: 0 24px;
+  background-color: none !important;
+  background-image: url(https://fffuel.co/images/dddepth/dddepth-158.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #787878;
+  animation: rotate 6s infinite alternate linear !important;
+  -webkit-animation: rotate 6s infinite alternate linear !important;
+}
+
+button {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+span {
+  color: #fff;
+  font-size: small;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 10px 0;
+}
+.error {
+  display: flex;
+  text-align: initial;
+  background-color: rgba(239, 68, 68, 0.1);
+  color: rgb(239 68 68);
+  border: 1px rgb(239 68 68) solid;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px 0;
+  font-weight: 900;
+}
+.top h2 {
+  color: #fff;
+  font-weight: 600;
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  padding: 10px 0 10px 0;
+}
+.input-field .input {
+  height: 45px;
+  width: 87%;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  font-size: 15px;
+  padding: 0 0 0 45px;
+  background: rgba(255, 255, 255, 0.1);
+  outline: none;
+}
+i {
+  position: relative;
+  top: -33px;
+  left: 17px;
+  color: #fff;
+}
+::-webkit-input-placeholder {
+  color: #fff;
+}
+.submit {
+  border: none;
+  border-radius: 30px;
+  font-size: 15px;
+  height: 45px;
+  outline: none;
+  width: 100%;
+  color: white;
+  background: #1db954;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.submit:hover {
+  box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+.two-col {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #fff;
+  font-size: small;
+  margin-top: 10px;
+}
+.one {
+  display: flex;
+}
+label a {
+  text-decoration: none;
+  margin-left: 7px;
+  color: #1db954;
+}
+
+.control {
+  border: 0;
+  border-radius: 8px;
+  outline: none;
+  width: 100%;
+  height: 40px;
+  padding: 0 16px;
+  height: 40px;
+  background: #edeaf7;
+  color: #5a4f79;
+  font-family: inherit;
+  font-size: 14px;
+  transition: 0.4s;
+}
+
+.login-card {
+  font-family: "Biennale";
+  position: relative;
+  z-index: 3;
+  width: auto;
+  margin: 0px 10px 0 10px;
+  padding: 30px 30px 70px;
+  border-radius: 1.25rem;
+  text-align: center;
+  /* backdrop-filter: blur(30px);
+  background: rgb(255 255 255 / 3%);
+  box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.4); */
+  background: #d6bce6;
+  box-shadow: 20px 20px 60px #b6a0c4, -20px -20px 60px #f6d8ff;
+}
+
+.login-card > h2 {
+  font-weight: 600;
+  color: white;
+  margin: 0;
+}
+.login-form > .top {
+  padding: 30px 0;
+}
+
+.login-card > h3 {
+  color: #837f90;
+  margin: 0 0 20px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.login-form {
+  width: 100%;
+  margin: 0;
+  display: grid;
+  gap: 16px;
+}
+
+.login-form input.control::placeholder {
+  color: #aaa7bc;
+}
+
+.login-form > button.control {
+  cursor: pointer;
+  background: #703eff;
+  display: inline-block;
+  width: fit-content;
+  height: fit-content;
+  padding: 0.6rem 1.2rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 300ms ease;
+  color: #f2f2fe;
+}
+
+.password {
+  position: relative;
+}
+
+.toggle {
+  position: absolute;
+  top: 50%;
+  right: 16px;
+  translate: 0 -50%;
+  width: 30px;
+  height: 30px;
+  background-image: url("../img/show.svg");
+  background-size: 85%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.toggle.showing {
+  background-image: url("../img/hide.svg");
+}
