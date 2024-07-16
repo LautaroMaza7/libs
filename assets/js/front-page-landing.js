@@ -87,32 +87,32 @@
   // Reviews slider next and previous
   // -----------------------------------
   // Add click event listener to next button
-  ReviewsNextBtn.addEventListener('click', function () {
-    ReviewsSliderNext.click();
-  });
-  ReviewsPreviousBtn.addEventListener('click', function () {
-    ReviewsSliderPrev.click();
-  });
+  // ReviewsNextBtn.addEventListener('click', function () {
+  //   ReviewsSliderNext.click();
+  // });
+  // ReviewsPreviousBtn.addEventListener('click', function () {
+  //   ReviewsSliderPrev.click();
+  // });
 
-  // Review client logo
-  // -----------------------------------
-  if (swiperLogos) {
-    new Swiper(swiperLogos, {
-      slidesPerView: 2,
-      autoplay: {
-        delay: 3000,
-        disableOnInteraction: false
-      },
-      breakpoints: {
-        992: {
-          slidesPerView: 5
-        },
-        768: {
-          slidesPerView: 3
-        }
-      }
-    });
-  }
+  // // Review client logo
+  // // -----------------------------------
+  // if (swiperLogos) {
+  //   new Swiper(swiperLogos, {
+  //     slidesPerView: 2,
+  //     autoplay: {
+  //       delay: 3000,
+  //       disableOnInteraction: false
+  //     },
+  //     breakpoints: {
+  //       992: {
+  //         slidesPerView: 5
+  //       },
+  //       768: {
+  //         slidesPerView: 3
+  //       }
+  //     }
+  //   });
+  // }
 
   // Pricing Plans
   // -----------------------------------
