@@ -70,9 +70,11 @@ nav.layout-navbar.navbar-active::after {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   margin-top: 1rem;
-  border-width: 2px;
-  border-style: solid;
   border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
 }
 .navbar.landing-navbar .navbar-nav .nav-link {
   padding: 0.5rem 0.9375rem;
@@ -168,10 +170,10 @@ nav.layout-navbar.navbar-active::after {
   color: #566a7f;
 }
 
-.dark-style .layout-navbar .navbar.landing-navbar {
+/* .dark-style .layout-navbar .navbar.landing-navbar {
   border-color: rgba(255, 255, 255, 0.08);
   background-color: rgba(255, 255, 255, 0.04);
-}
+} */
 .dark-style .layout-navbar .navbar.landing-navbar .navbar-nav .nav-link {
   color: #cbcbe2;
 }
