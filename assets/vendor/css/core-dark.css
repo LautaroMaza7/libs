@@ -10650,9 +10650,9 @@ button.list-group-item-gray.active {
   margin-left: 0.25rem;
 }
 
-.card-title:not(h1):not(.h1):not(h2):not(.h2):not(h3):not(.h3):not(h4):not(.h4):not(h5):not(.h5):not(h6):not(.h6) {
+/* .card-title:not(h1):not(.h1):not(h2):not(.h2):not(h3):not(.h3):not(h4):not(.h4):not(h5):not(.h5):not(h6):not(.h6) {
   color: #a3a4cc;
-}
+} */
 
 .card-img-left {
   border-top-left-radius: 0.5rem;
