@@ -36,11 +36,11 @@
 }
 
 .light-style body {
-  background-color: #fff;
+  background-color:  hsla(0, 0%, 100%, 1);
 }
 
 .dark-style body {
-  background-color: #2b2c40;
+  background-color: hsla(231, 10%, 14%, 1);
 }
 
 nav.layout-navbar {
