@@ -18352,7 +18352,7 @@ html:not(.layout-menu-fixed) .menu-inner-shadow {
 .layout-navbar .navbar-search-wrapper .navbar-search-suggestion .suggestions-header {
   font-size: 0.8125rem;
 }
-/* .layout-navbar .navbar-search-wrapper .navbar-search-suggestion .suggestions-header::before {
+.layout-navbar .navbar-search-wrapper .navbar-search-suggestion .suggestions-header::before {
   content: "";
   position: absolute;
   left: 0;
@@ -18360,7 +18360,7 @@ html:not(.layout-menu-fixed) .menu-inner-shadow {
   height: 1px;
   margin-top: 0.375rem;
   background: #7071a4;
-} */
+}
 .layout-navbar.navbar-detached {
   width: calc(100% - 1.625rem * 2);
   margin: 0.75rem auto 0;
