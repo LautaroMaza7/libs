@@ -2058,7 +2058,7 @@ progress {
   line-height: 1.53;
   color: #a3a4cc;
   appearance: none;
-  background-color: #2b2c40;
+  background-color: #1a1a1a;
   background-clip: padding-box;
   border: var(--bs-border-width) solid #444564;
   border-radius: var(--bs-border-radius);
