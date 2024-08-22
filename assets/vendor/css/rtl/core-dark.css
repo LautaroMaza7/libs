@@ -4047,7 +4047,7 @@ textarea.form-control-lg {
 
 .accordion-item {
   color: var(--bs-accordion-color);
-  background-color: var(--bs-accordion-bg);
+  /* background-color: var(--bs-accordion-bg); */
   border: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color);
 }
 .accordion-item:first-of-type {
@@ -4874,7 +4874,7 @@ textarea.form-control-lg {
   --bs-modal-padding: 1.5rem;
   --bs-modal-margin: 1.5rem;
   --bs-modal-color: ;
-  --bs-modal-bg: #2b2c40;
+  --bs-modal-bg: #1E201E;
   --bs-modal-border-color: var(--bs-border-color-translucent);
   --bs-modal-border-width: 0px;
   --bs-modal-border-radius: var(--bs-border-radius-lg);
@@ -12198,7 +12198,7 @@ html:not([dir=rtl]) .toast.bs-toast .toast-header .btn-close {
 }
 
 .border {
-  border: 1px solid #444564 !important;
+  border: 1px solid #3f3f3f !important;
 }
 
 .border-0 {
