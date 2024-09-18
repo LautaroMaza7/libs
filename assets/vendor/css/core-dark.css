@@ -207,11 +207,6 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
-  color: var(--bs-body-color)!important;
-}
-
-span{
-  color: var(--bs-body-color)!important;
 }
 
 abbr[title] {
@@ -4052,7 +4047,7 @@ textarea.form-control-lg {
 
 .accordion-item {
   color: var(--bs-accordion-color);
-  /* background-color: var(--bs-accordion-bg); */
+  background-color: var(--bs-accordion-bg);
   border: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color);
 }
 .accordion-item:first-of-type {
@@ -4879,7 +4874,7 @@ textarea.form-control-lg {
   --bs-modal-padding: 1.5rem;
   --bs-modal-margin: 1.5rem;
   --bs-modal-color: ;
-  --bs-modal-bg: #1E201E;
+  --bs-modal-bg: #2b2c40;
   --bs-modal-border-color: var(--bs-border-color-translucent);
   --bs-modal-border-width: 0px;
   --bs-modal-border-radius: var(--bs-border-radius-lg);
@@ -10655,9 +10650,9 @@ button.list-group-item-gray.active {
   margin-left: 0.25rem;
 }
 
-/* .card-title:not(h1):not(.h1):not(h2):not(.h2):not(h3):not(.h3):not(h4):not(.h4):not(h5):not(.h5):not(h6):not(.h6) {
+.card-title:not(h1):not(.h1):not(h2):not(.h2):not(h3):not(.h3):not(h4):not(.h4):not(h5):not(.h5):not(h6):not(.h6) {
   color: #a3a4cc;
-} */
+}
 
 .card-img-left {
   border-top-left-radius: 0.5rem;
@@ -11296,7 +11291,7 @@ button.list-group-item-gray.active {
 }
 
 .border {
-  border: 1px solid #3f3f3f !important;
+  border: 1px solid #444564 !important;
 }
 
 .border-0 {

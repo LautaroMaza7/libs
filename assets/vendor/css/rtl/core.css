@@ -4833,11 +4833,6 @@ textarea.form-control-lg {
   box-shadow: var(--bs-toast-box-shadow);
   border-radius: var(--bs-toast-border-radius);
 }
-
-.swal2-container {
-  z-index: 11111111111111111!important;
-}
-
 .toast.showing {
   opacity: 0;
 }
@@ -4928,11 +4923,7 @@ textarea.form-control-lg {
   }
 }
 .modal.show .modal-dialog {
-  transform: translateY(1rem) scale(1);
-  -webkit-transform: translateY(1rem) scale(1);
-  -moz-transform: translateY(1rem) scale(1);
-  -ms-transform: translateY(1rem) scale(1);
-  -o-transform: translateY(1rem) scale(1);
+  transform: translateY(0) scale(1);
 }
 .modal.modal-static .modal-dialog {
   transform: scale(1.02);

@@ -212,13 +212,7 @@ h6, .h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
-  color: var(--bs-body-color)!important;
 }
-
-span{
-  color: var(--bs-body-color)!important;
-}
-
 
 abbr[title] {
   text-decoration: underline dotted;
@@ -277,10 +271,6 @@ mark, .mark {
   padding: 0.1875em;
   color: var(--bs-highlight-color);
   background-color: var(--bs-highlight-bg);
-}
-
-.avatar {
-  display: flex!important;
 }
 
 sub,
@@ -10686,9 +10676,9 @@ button.list-group-item-gray.active {
   margin-left: 0.25rem;
 }
 
-/* .card-title:not(h1):not(.h1):not(h2):not(.h2):not(h3):not(.h3):not(h4):not(.h4):not(h5):not(.h5):not(h6):not(.h6) {
+.card-title:not(h1):not(.h1):not(h2):not(.h2):not(h3):not(.h3):not(h4):not(.h4):not(h5):not(.h5):not(h6):not(.h6) {
   color: #697a8d;
-} */
+}
 
 .card-img-left {
   border-top-left-radius: 0.5rem;
